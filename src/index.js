@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/healthyHub-frontend">
+        <BrowserRouter basename="/HealthyHub-team_project">
           <App />
         </BrowserRouter>
       </PersistGate>
